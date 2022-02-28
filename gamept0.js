@@ -1,4 +1,4 @@
-const { prompt } = require("./prompt");
+const prompt = require('prompt-sync')();
 
 let nivel = 0
 let n = prompt("\nvc estava na cena do crime?")
